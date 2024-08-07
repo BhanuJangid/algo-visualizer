@@ -10,13 +10,12 @@ import DFSVisualization from './components/algorithms/DFSVisualization';
 import BFSVisualization from './components/algorithms/BFSVisualization';
 import DijkstraVisualization from './components/algorithms/DijkstraVisualization';
 
-
 function App() {
     return (
         <Router>
             <div className="App">
                 <Routes>
-                    <Route path="/" element={<Home/>} />
+                    <Route path="/" element={<Home />} />
                     <Route path="/insertion-sort" element={<InsertionSortVisualization />} />
                     <Route path="/selection-sort" element={<SelectionSortVisualization />} />
                     <Route path="/bubble-sort" element={<BubbleSortVisualization />} />
